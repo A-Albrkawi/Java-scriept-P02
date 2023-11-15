@@ -100,7 +100,7 @@
 
 //   if (index <= 10) {
 //     console.log("zin 1");
-//     console.log("zin 2");
+//     console.log("zin 2");   
 //   } else if (index < 20) {
 //     console.log("zin 1");
 //   } else if (index === 20) {
