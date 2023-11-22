@@ -217,40 +217,40 @@
 
 // =====================================9=========================
 
-const container = document.querySelector(".container");
+// const container = document.querySelector(".container");
 
-const resepietOne = {
-  title: "banaancake",
-  discription: "mlek 100ml,2eiren,1 1/2 banaan,150bloem",
-  healthy: "A+",
-};
-const resepietTwo = {
-  title: "appelcake",
-  discription: "mlek 100ml,2eiren,1 1/2 appel,150bloem",
-  healthy: "A+",
-};
-const resepietThree = {
-  title: "wortelcake",
-  discription: "mlek 100ml,2eiren,1 1/2 wortel,150bloem",
-  healthy: "A+",
-};
+// const resepietOne = {
+//   title: "banaancake",
+//   discription: "mlek 100ml,2eiren,1 1/2 banaan,150bloem",
+//   healthy: "A+",
+// };
+// const resepietTwo = {
+//   title: "appelcake",
+//   discription: "mlek 100ml,2eiren,1 1/2 appel,150bloem",
+//   healthy: "A+",
+// };
+// const resepietThree = {
+//   title: "wortelcake",
+//   discription: "mlek 100ml,2eiren,1 1/2 wortel,150bloem",
+//   healthy: "A+",
+// };
 
-let cakes = [resepietOne, resepietTwo, resepietThree];
+// let cakes = [resepietOne, resepietTwo, resepietThree];
 
-for (let i = 0; i < cakes.length; i++) {
-  const element = cakes[i];
-  console.log(element);
+// for (let i = 0; i < cakes.length; i++) {
+//   const element = cakes[i];
+//   console.log(element);
 
-  const htmlCode = createProductHtml(cakes);
-container.innerHTML += htmlCode;
-}
+//   const htmlCode = createProductHtml(cakes);
+//   container.innerHTML += htmlCode;
+// }
 
+// function createProductHtml(product) {
+//   const html = `<div class="product">
+//                     <h2>${resepietOne.title}</h2>
+//                     <p>${resepietTwo.price}</p>
+//                 </div>`;
 
-function createProductHtml(product) {
-	const html = `<div class="product">
-                    <h2>${resepietOne.title}</h2>
-                    <p>${resepietTwo.price}</p>
-                </div>`;
-
-	return html;
-/
+//   return html;
+// }
+ 
