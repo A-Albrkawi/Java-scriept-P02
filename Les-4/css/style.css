@@ -1,0 +1,19 @@
+.card-container{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(134, 145, 145);
+    display: inline-block;
+    margin: 10px 80px;
+}
+.card-container img{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+/* .card-p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 25px;
+} */

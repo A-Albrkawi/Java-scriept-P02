@@ -1,0 +1,12 @@
+.card {
+  height: 50px;
+  width: 200px;
+  background-color: aqua;
+}
+td{border:1px solid red;
+height: 30px;
+width: 400px;}
+.btn{
+  width: 100px;
+  height: 100px;
+}
